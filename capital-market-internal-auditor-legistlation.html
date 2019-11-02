@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   
-<!-- Mirrored from localhost/cma/capital-market-internal-auditor-legistlation.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Oct 2019 14:49:34 GMT -->
+<!-- Mirrored from localhost/cma/capital-market-internal-auditor-legistlation.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Nov 2019 08:51:25 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -59,7 +59,7 @@
 					<button type="button"  title="Setting" class="round-btn-img m-side-15" data-toggle="modal" data-target="#settingmodal" ><img src="assets/images/icons/gear.svg" alt="logo"   /></button>
 					<button type="button"  title="Information" class="round-btn-img m-side-15"><img src="assets/images/icons/info.svg" alt="logo"  /></button>
 					<a href="contactus.html"  title="Contact" class="round-btn-img m-side-15"><img src="assets/images/icons/phone-r.svg" alt="logo"  /></a>
-					<button type="button"  title="Structure" class="round-btn-img m-side-15"><img src="assets/images/icons/hierarchy.svg" alt="logo"   /></button>
+					<a href="site-map.html"  title="Structure" class="round-btn-img m-side-15"><img src="assets/images/icons/hierarchy.svg" alt="logo"   /></a>
                     <button type="button"  title="Organisation" class="round-btn-img m-side-15"><img src="assets/images/icons/people.svg" alt="logo"  /></button>
 				</div>
 			</div>
@@ -217,6 +217,9 @@
                                           <div id="serviceone" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                                             <div class="card-body">
                                             <ul class="links" style="">
+                                            <li class="">
+                                                                <a href="capital-market-listed-brief.html" ><i class="fa fa-chevron-right" ></i> Brief of Capital Market </a>
+                                                            </li>
                                               <li >
                                                   <a href="capital-market-listed-company.html" ><i class="fa fa-chevron-right" ></i> Defination </a>
                                               </li>
@@ -245,37 +248,48 @@
                         </div>
                         <div class="col-lg-9 pl-5" >
 
-                                <div class=" w-50 m-auto innerpagesslide" id="aboutslider">
-                        
-                                <carousel-3d :autoplay="false" :width="200" :height="160" :display="3" :autoplay-timeout="2400" :controls-visible="true" :clickable="false" >
-                                <slide :index="0"><a href="#" ><img src="assets/images/slides/organization.png"/></a></slide>
-                                <slide :index="1"><a href="#" ><img src="assets/images/slides/listed-companies.png"/></a></slide>
-                                <slide :index="2"><a href="#" > <img src="assets/images/slides/investment-funds.png"/></a></slide>
-                                <slide :index="3"><a href="#" > <img src="assets/images/slides/funds.png"/></a></slide>
-                                 </carousel-3d>
-                            </div>
+                        <h2 class="section-header pb-3" >Letgistlation</h2>
+                        <div class="tab_container">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Legislation</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Decision</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#tabs-3" role="tab">Circular</a>
+                  </li>
+                  <li class="nav-item event-filter">                    
+                   <div class="filter_wrapper">
+                   <button type="button" class="filter-btn m-side-15"><i class="fa fa-filter" aria-hidden="true"></i></button>
+                      <div class="filter_element">
+                        <div class="label">Section Filter</div>
+                      <select >
+                            <option value="">General</option><option>Insurance</option><option>Capital Market</option><option>Corporate Governance</option>
+                        </select>
+                      </div>
+                      <div class="filter_element">
+                        <div class="label">Search</div>
+                        <input type="text" class="" />
+                      </div>    
+                      <div class="filter_element">
+                        <div class="label">Date Filter</div>
+                        <select>
+                            <option>Select Year</option><option>2019</option>
+                        </select>
+                      </div>
 
+                   </div>
 
-                            <h2 class="section-header pb-3" >Legistlation</h2>
-
-                            <p class="section-para m-0">description here 
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad squid. Nihil anim keffiyeh helvetica, craft be
-                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                    ad squid. Nihil anim keffiyeh helvetica, craft be
-                            </p>
-                            <div id="bio2" class="additional" style="display:none">
-                                    <p class="section-para m-0">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson
-                                            ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapien
-                                            Lorem Ipsum is simply dummy text of the printing 
-                                    
-                                    </p>
-                            </div>
-                            <a href="#bio2" class="btn btn-link pull-right open-bio">Read More</a>
-
-                            <div class="clearfix"></div>
-                            <div class="row file-grid">
+                    </li>
+                </ul><!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                        <div class="row file-grid">
                                 <div class="col-lg-5 file-grid-tile">
                                     <img slt="file" src="assets/images/icons/pdf.svg">
                                     <div class="file-details">
@@ -327,6 +341,133 @@
 
 
                             </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tabs-2" role="tabpanel">
+                  <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                        <div class="row file-grid">
+                                <div class="col-lg-5 file-grid-tile">
+                                    <img slt="file" src="assets/images/icons/pdf.svg">
+                                    <div class="file-details">
+                                        <div class="file-title">Document File</div>
+                                        <span> Section: General</span>
+                                        <span> Issue Date: 19-10-2019</span>
+                                        <button class="icon-download">
+                                            <i class="fa fa-download "></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 file-grid-tile">
+                                    <img slt="file" src="assets/images/icons/doc.svg">
+                                    <div class="file-details">
+                                        <div class="file-title">Document File</div>
+                                        <span> Section: General</span>
+                                        <span> Issue Date: 19-10-2019</span>
+                                        <button class="icon-download">
+                                            <i class="fa fa-download "></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 file-grid-tile">
+                                    <img slt="file" src="assets/images/icons/excel.svg">
+                                    <div class="file-details">
+                                        <div class="file-title">Document File</div>
+                                        <span> Section: General</span>
+                                        <span> Issue Date: 19-10-2019</span>
+                                        <button class="icon-download">
+                                            <i class="fa fa-download "></i>
+                                        </button>
+                                        
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-5 file-grid-tile">
+                                    <img slt="file" src="assets/images/icons/csv.svg">
+                                    <div class="file-details">
+                                        <div class="file-title">Document File</div>
+                                        <span> Section: General</span>
+                                        <span> Issue Date: 19-10-2019</span>
+                                        <button class="icon-download">
+                                            <i class="fa fa-download "></i>
+                                        </button>
+                                        
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="tabs-3" role="tabpanel">
+                  <div class="container">
+                      <div class="row">
+                        <div class="col-md-12">
+                        <div class="row file-grid">
+                          <div class="col-lg-5 file-grid-tile">
+                              <img slt="file" src="assets/images/icons/excel.svg">
+                              <div class="file-details">
+                                  <div class="file-title">Document File</div>
+                                  <span> Section: General</span>
+                                  <span> Issue Date: 19-10-2019</span>
+                                  <button class="icon-download">
+                                      <i class="fa fa-download "></i>
+                                  </button>
+                                  
+                              </div>
+                          </div>
+                                <div class="col-lg-5 file-grid-tile">
+                                    <img slt="file" src="assets/images/icons/pdf.svg">
+                                    <div class="file-details">
+                                        <div class="file-title">Document File</div>
+                                        <span> Section: General</span>
+                                        <span> Issue Date: 19-10-2019</span>
+                                        <button class="icon-download">
+                                            <i class="fa fa-download "></i>
+                                        </button>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-5 file-grid-tile">
+                                    <img slt="file" src="assets/images/icons/doc.svg">
+                                    <div class="file-details">
+                                        <div class="file-title">Document File</div>
+                                        <span> Section: General</span>
+                                        <span> Issue Date: 19-10-2019</span>
+                                        <button class="icon-download">
+                                            <i class="fa fa-download "></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-lg-5 file-grid-tile">
+                                    <img slt="file" src="assets/images/icons/csv.svg">
+                                    <div class="file-details">
+                                        <div class="file-title">Document File</div>
+                                        <span> Section: General</span>
+                                        <span> Issue Date: 19-10-2019</span>
+                                        <button class="icon-download">
+                                            <i class="fa fa-download "></i>
+                                        </button>
+                                        
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+</div>
                 </div>
             </div>
         </div>
@@ -334,7 +475,158 @@
     
      
      
-    <footer >
+    <div class="modal fade" id="newslettermodal" tabindex="-1" role="dialog" aria-labelledby="newslettermodal" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                 
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            <div class="modal-body newslettermodal   d-flex flex-column"  >
+
+            <div class="row" >
+              <div class="col-lg-12" >
+              <h3 class="text-center"  >Suscribe to CMA</h3>
+               <p class="text-center"   >
+               This page is for subscription in CMA email list. An e-mail will be sent to your 
+               registered e-mail. For completing and activating your account, please click on 
+               the link sent to your e-mail account.
+               </p>
+
+                <div class="row" >
+                  <div class="col-lg-6 form__group p-3">
+                      <input type="text" id="fullname" class="form__field" placeholder="Full Name">
+                      <label for="fullname" class="form__label">Full Name</label>
+                    </div>
+                    <div class="col-lg-6 form__group p-3">
+                        <input type="text" id="fullname" class="form__field" placeholder="Full Name">
+                        <label for="fullname" class="form__label">Email</label>
+                      </div>
+
+
+
+                      <div class="col-lg-6 form-group p-3">
+                      <label for="fullname" class="form__group form__label">Country</label>
+                        <select class="form-control" id="sel1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6 form-group p-3">
+                    
+                    <label for="fullname" class="form__group form__label">Prefered language</label>
+                        <select class="form-control" id="sel1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                        </select>
+                      
+                      </div>
+                    <div class="col-lg-12" >
+                      <div class="options-sbmt">
+                          <div class="chiller_cb">
+                          <input id="newscheckbox" type="checkbox" checked="">
+                          <label for="newscheckbox">
+                            <div class="bullet">News : </div>
+                            follow up with us latest news of the capital market and insurance sectors
+
+                            </label>
+                          <span></span>
+                        </div>
+                        <div class="chiller_cb">
+                          <input id="newscheckbox2" type="checkbox">
+                          <label for="newscheckbox2">
+                          <div class="bullet">IPO : </div>
+                          read details of new prospectus in MSM.</label>
+                          <span></span>
+                        </div>
+
+                        <div class="chiller_cb">
+                          <input id="newscheckbox3" type="checkbox">
+                          <label for="newscheckbox3">
+                            <div class="bullet">Awareness Publications: </div>
+                            awareness materials and programmes
+                        </label>
+                          <span></span>
+                        </div>
+
+                        <div class="chiller_cb">
+                          <input id="newscheckbox4" type="checkbox">
+                          <label for="newscheckbox4">
+                            <div class="bullet">Insurance Market Review: </div>
+                            indicators and details of the insurance sector for a year
+                        </label>
+                          <span></span>
+                        </div>
+
+                        <div class="chiller_cb">
+                          <input id="newscheckbox5" type="checkbox">
+                          <label for="newscheckbox5">
+                            <div class="bullet">Annual Report: </div>
+                            indicators and details of the insurance sector for a year
+                        </label>
+                          <span></span>
+                        </div>
+
+                        <div class="chiller_cb">
+                          <input id="newscheckbox6" type="checkbox">
+                          <label for="newscheckbox6">
+                            <div class="bullet">Events: </div>
+                            updated with new events
+                        </label>
+                          <span></span>
+                        </div>
+
+                        <div class="chiller_cb">
+                          <input id="newscheckbox7" type="checkbox">
+                          <label for="newscheckbox7">
+                            <div class="bullet">Annual General Meeting :</div>
+                            be informed with timings of AGM
+                        </label>
+                          <span></span>
+                        </div>
+
+
+                        <div class="chiller_cb">
+                          <input id="newscheckbox8" type="checkbox">
+                          <label for="newscheckbox8">
+                            <div class="bullet">Souq AlMal Magazine: </div>
+                            provides you with opinions of experts and specialists in the capital market and insurance sectors
+                        </label>
+                          <span></span>
+                        </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-lg-6" >
+                 
+                </div>
+                <div class="col-lg-6 pull-right pt-5" >
+                <button class="btn btn-primary pull-right" value="SUBSCRIBE" > SUBSCRIBE </button>
+                </div>
+
+              </div>
+            </div>
+
+              
+
+
+            </div>
+             
+          </div>
+        </div>
+      </div>
+<footer >
         <div class="footer-top" >
             
             <button class="toggle-footer hidemobile">
@@ -346,7 +638,7 @@
                 <a  href="media-center.html" > Media Center </a>
             </div>
             
-            <button  class="news-letter">
+            <button  class="news-letter" data-toggle="modal"  data-target="#newslettermodal" >
                 <i class="fa fa-envelope" aria-hidden="true"></i> Newsletter Subscription
             </button>
         </div>
@@ -625,7 +917,7 @@
 
             <div class="w-100 d-flex flex-row mt-5" >
                 <div class="w-50 d-flex flex-row justify-content-start" >
-                    <button class="modal-print-reset"><i class="fa fa-print" ></i>  Print This Page</button>
+                    <button class="modal-print-reset" onclick="window.print();" ><i class="fa fa-print" ></i>  Print This Page</button>
                 </div>
                 <div class="w-50 d-flex flex-row justify-content-end"  >
                     <button class="modal-print-reset" id="resettheme" ><i class="fa fa-refresh" ></i>Reset Settings</button>
@@ -679,6 +971,6 @@
 <script src="assets/js/rating-slider-smiley.js"></script>
   </body>
 
-<!-- Mirrored from localhost/cma/capital-market-internal-auditor-legistlation.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 31 Oct 2019 14:49:34 GMT -->
+<!-- Mirrored from localhost/cma/capital-market-internal-auditor-legistlation.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Nov 2019 08:51:25 GMT -->
 </html>
 
