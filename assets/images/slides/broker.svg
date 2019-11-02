@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <g id="Group_684" data-name="Group 684" transform="translate(-0.4)">
+    <path id="Path_10305" data-name="Path 10305" d="M50,0A50,50,0,1,1,0,50,50,50,0,0,1,50,0Z" transform="translate(0.4)" fill="#0c8e38"/>
+    <g id="Group_414" data-name="Group 414" transform="translate(26 14)">
+      <g id="Group_401" data-name="Group 401" transform="translate(0 41)">
+        <text id="Brokers" transform="translate(26.4 8)" fill="#fff" font-size="8" font-family="Roboto-Regular, Roboto"><tspan x="-13.648" y="0">Brokers</tspan></text>
+        <text id="_39" data-name="39" transform="translate(26.4 29)" fill="#fff" font-size="12" font-family="Roboto-Regular, Roboto"><tspan x="-6.738" y="0">39</tspan></text>
+      </g>
+      <path id="user-tie-solid" d="M14,16A8,8,0,1,0,6,8,8,8,0,0,0,14,16Zm5.987,2.038L17,30l-2-8.5L17,18H11l2,3.5L11,30,8.012,18.038A8.385,8.385,0,0,0,0,26.4V29a3,3,0,0,0,3,3H25a3,3,0,0,0,3-3V26.4a8.385,8.385,0,0,0-8.013-8.363Z" transform="translate(12.4 6)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
