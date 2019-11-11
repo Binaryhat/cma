@@ -1,0 +1,204 @@
+.slider_container {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width:calc(100% - 140px);
+    margin: 0px auto;
+  }
+  .slider_container .range-slider {
+    position: absolute;
+  }
+  .slider_controls{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+  width:100%;
+
+  }
+  .left_control{
+  display: flex;
+  }
+  .left_control .minus{
+    position: relative;
+    top:-65%;
+    cursor: pointer;
+  }
+  .left_control .very_bad{
+  color:#FC4B4B;
+  padding: 10px; 
+
+  }
+  .right_control{
+    display: flex;
+   
+  }
+  .right_control .plus{
+  position: relative;
+  top:-65%;
+  cursor: pointer;
+  }
+  .right_control .excellent{
+    color:#0078ff;
+    padding: 10px; 
+  
+  }
+  
+  #smiley_box {
+    height: 200px;
+    width: 200px;
+    /* border: 1px solid #333; */
+    background-image:url("../images/smiley/Smiley1.png");
+    border-radius: 50%;
+    margin-top: 50px;
+    transition: all 0.6s ease;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .color-track {
+    width: 100%;
+    height: 14px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+  .color-track div {
+    width: calc(20% - 2px);
+  }
+  .color-track .red {
+    background-color: #FC4B4B;
+  }
+  .color-track .orange {
+    background-color: #FFA32A;
+  }
+  .color-track .yellow {
+    background-color: #FFF951;
+  }
+  .color-track .green {
+    background-color: #9AF956;
+  }
+  .color-track .blue {
+    background-color: #0078FF;
+  }
+  .color-track .first {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .color-track .last {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  /* body {
+    font-family: sans-serif;
+    padding: 60px 20px;
+  }
+  @media (min-width: 600px) {
+    body {
+      padding: 60px;
+    }
+  } */
+  
+  .range-slider {
+    width: 100%;
+  }
+  
+  .range-slider__range {
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 100%;
+    height: 14px;
+    border-radius: 5px;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+    margin: 0;
+  }
+  .range-slider__range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+            appearance: none;
+    width: 20px;
+    height: 35px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    background: #fff;
+    cursor: pointer;
+  
+    transition: background .15s ease-in-out;
+  }
+  .range-slider__range::-webkit-slider-thumb:hover {
+    background: #1abc9c;
+  }
+  .range-slider__range:active::-webkit-slider-thumb {
+    background: #1abc9c;
+  }
+  .range-slider__range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    border-radius: 50%;
+    background: #2c3e50;
+    cursor: pointer;
+    transition: background .15s ease-in-out;
+  }
+  .range-slider__range::-moz-range-thumb:hover {
+    background: #1abc9c;
+  }
+  .range-slider__range:active::-moz-range-thumb {
+    background: #1abc9c;
+  }
+  .range-slider__range:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 3px #fff, 0 0 0 6px #1abc9c;
+  }
+  
+  .range-slider__value {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    color: #fff;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 3px;
+    background: #2c3e50;
+    padding: 5px 10px;
+    margin-left: 8px;
+  }
+  .range-slider__value:after {
+    position: absolute;
+    top: 8px;
+    left: -7px;
+    width: 0;
+    height: 0;
+    border-top: 7px solid transparent;
+    border-right: 7px solid #2c3e50;
+    border-bottom: 7px solid transparent;
+    content: '';
+  }
+  
+  ::-moz-range-track {
+    background: #d7dcdf;
+    border: 0;
+  }
+  
+  input::-moz-focus-inner,
+  input::-moz-focus-outer {
+    border: 0;
+  }
+  
+
+  /* custom */
+  .modal-dialog .rate-modal .rate-slider 
+  {
+    width: 100%;
+    display: flex;
+    flex-direction: column;    padding:10px 40px  95px 30px;
+    align-items:center;
+  }

@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   
-<!-- Mirrored from localhost/cma/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Nov 2019 08:41:16 GMT -->
+<!-- Mirrored from localhost/cma/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Nov 2019 13:06:46 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -167,13 +167,13 @@
 
     <div role="main" class="container-fluid p-0" id="tour1" >
         <div class="float-social-btns "  > 
-            <a class="social-btns hidemobile" href="#"     data-toggle="popover" data-container="body"  data-placement="left"   data-html="true"  id="tweeterpopperid" >
+            <a class="social-btns  " href="#"     data-toggle="popover" data-container="body"  data-placement="left"   data-html="true"  id="tweeterpopperid" >
                 <i class="fa fa-twitter" aria-hidden="true"></i>
             </a> 
-            <a class="social-btns hidemobile" href="#" ><i class="fa fa-instagram" aria-hidden="true"></i></a> 
-            <a class="social-btns hidemobile" href="#" ><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
-            <a class="social-btns hidemobile" href="#" ><i class="fa fa-rss" aria-hidden="true"></i></a> 
-            <a class="social-btns hidemobile" href="#"     data-toggle="popover" data-container="body"  data-placement="left"   data-html="true"  id="sharepopperid" >
+            <a class="social-btns  " href="#" ><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+            <a class="social-btns  " href="#" ><i class="fa fa-youtube-play" aria-hidden="true"></i></a> 
+            <a class="social-btns  " href="#" ><i class="fa fa-rss" aria-hidden="true"></i></a> 
+            <a class="social-btns  " href="#"     data-toggle="popover" data-container="body"  data-placement="left"   data-html="true"  id="sharepopperid" >
                 <i class="fa fa-share-alt" aria-hidden="true"></i>
             </a> 
             <a class="social-btns" href="#" data-toggle="modal" data-target="#exampleModal" ><i class="fa fa-smile-o" aria-hidden="true"></i></a> 
@@ -835,15 +835,41 @@
                 </a>
                 <div class="row m-0 capital-slider tab-pane active" id="news" >
                         <div class="col-lg-12   text-center  "   > 
-                                <div id="sliderexample">
+                                <div class="content3dcircular" id="sliderexample">
                         
-                                    <carousel-3d :autoplay="true" :width="220" :perspective="0" :height="180" :display="3" :autoplay-timeout="2400" :controls-visible="true" :clickable="false" >
-                                        <slide :index="0"><img src="assets/images/slides/organisation.svg"/></slide>
-                                        <slide :index="1"><img src="assets/images/slides/investment-funds.svg"/></slide>
-                                        <slide :index="2"><img src="assets/images/slides/listed-companies.svg"/></slide>
-                                         
-                                         
-                                    </carousel-3d>
+                        <carousel-3d :autoplay="false" :width="180" :perspective="0" :height="180" :display="3" :autoplay-timeout="2400" :controls-visible="true" :clickable="false" >
+                            <slide :index="0">
+                            <div class="slide-item-div blue-slide"  >
+                              <div class="image">
+                              <img   src="assets/images/slides/icons/organisation-ico.svg"/>
+                              </div>
+                              
+                              <span class="slide-name"   >Organization</span>
+                              <span class="slide-number"  >50%</span>
+                            </div>
+                            
+                            </slide>
+                            <slide :index="1">
+                            <div class="slide-item-div blue-slide"  >
+                            <div class="image">
+                              <img   src="assets/images/slides/icons/investment_funds.svg"/>
+                            </div>
+                              <span class="slide-name"   >Investment Funds</span>
+                              <span class="slide-number"  >23</span>
+                            </div>
+                            </slide>
+                            <slide :index="2">
+                            <div class="slide-item-div blue-slide"  >
+                            <div class="image">
+                              <img   src="assets/images/slides/icons/listed_companies.svg"/>
+                            </div>
+                              <span class="slide-name"   >Listed Companies</span>
+                              <span class="slide-number"  >110</span>
+                            </div>
+                            </slide>
+                             
+                             
+                        </carousel-3d>
                                     
                                 </div>        
                         
@@ -857,14 +883,41 @@
                     </a>
                     <div class="row m-0 capital-slider tab-pane active" id="news" >
                             <div class="col-lg-12   text-center  "   > 
-                                    <div id="sliderexample2">
+                    <div  class="content3dcircular" id="sliderexample2">
                             
-                                        <carousel-3d :autoplay="true" :perspective="0" :width="220" :height="180" :display="3" :autoplay-timeout="2400" :controls-visible="true" :clickable="false" >
-                                        <slide :index="0"><img src="assets/images/slides/organisation-green.svg"/></slide>
-                                        <slide :index="1"><img src="assets/images/slides/companies.svg"/></slide>
-                                        <slide :index="2"><img src="assets/images/slides/broker.svg"/></slide>
-                                         
-                                        </carousel-3d>
+                        <carousel-3d :autoplay="false" :width="180" :perspective="0" :height="180" :display="3" :autoplay-timeout="2400" :controls-visible="true" :clickable="false" >
+                            <slide :index="0">
+                            <div class="slide-item-div green-slide"  >
+                              <div class="image">
+                              <img   src="assets/images/slides/icons/organisation-ico.svg"/>
+                              </div>
+                              
+                              <span class="slide-name"   >Organization</span>
+                              <span class="slide-number"  >50%</span>
+                            </div>
+                            
+                            </slide>
+                            <slide :index="1">
+                            <div class="slide-item-div green-slide"  >
+                            <div class="image">
+                              <img   src="assets/images/slides/icons/investment_funds.svg"/>
+                            </div>
+                              <span class="slide-name"   >Investment Funds</span>
+                              <span class="slide-number"  >23</span>
+                            </div>
+                            </slide>
+                            <slide :index="2">
+                            <div class="slide-item-div green-slide"  >
+                            <div class="image">
+                              <img   src="assets/images/slides/icons/listed_companies.svg"/>
+                            </div>
+                              <span class="slide-name"   >Listed Companies</span>
+                              <span class="slide-number"  >110</span>
+                            </div>
+                            </slide>
+                             
+                             
+                        </carousel-3d>
                                         
                                     </div>        
                             
@@ -1442,7 +1495,7 @@
 
   </body>
 
-<!-- Mirrored from localhost/cma/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 02 Nov 2019 08:44:33 GMT -->
+<!-- Mirrored from localhost/cma/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Nov 2019 13:10:05 GMT -->
 </html>
 
 

@@ -273,6 +273,27 @@ $(document).ready(function () {
 });
 
 
+// $(document).ready(function () {
+//   $('#heading2')
+//       .on('hidden.bs.collapse', function() {
+//           $(this)
+//           .parent()
+//               .find(".fa-chevron-up")
+//               .removeClass("fa-chevron-up")
+//               .addClass("fa-chevron-right");
+             
+//       })
+//       .on('shown.bs.collapse', function() {
+//           $(this)
+//           .parent()
+//               .find(".fa-chevron-right")
+//               .removeClass("fa-chevron-right")
+//               .addClass("fa-chevron-up");
+//       });
+// });
+
+
+
 $(document).ready(function(){
   $('#lightgallery').lightGallery({
     thumbnail:true,

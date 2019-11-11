@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#08457E;}
+	.st1{fill:#FFFFFF;}
+</style>
+<g>
+	<g>
+		<path class="st0" d="M496,336h-32v-80c0-8.8-7.2-16-16-16H272v-64h32c8.8,0,16-7.2,16-16V64c0-8.8-7.2-16-16-16h-96
+			c-8.8,0-16,7.2-16,16v96c0,8.8,7.2,16,16,16h32v64H64c-8.8,0-16,7.2-16,16v80H16c-8.8,0-16,7.2-16,16v96c0,8.8,7.2,16,16,16h96
+			c8.8,0,16-7.2,16-16v-96c0-8.8-7.2-16-16-16H80v-64h160v64h-32c-8.8,0-16,7.2-16,16v96c0,8.8,7.2,16,16,16h96c8.8,0,16-7.2,16-16
+			v-96c0-8.8-7.2-16-16-16h-32v-64h160v64h-32c-8.8,0-16,7.2-16,16v96c0,8.8,7.2,16,16,16h96c8.8,0,16-7.2,16-16v-96
+			C512,343.2,504.8,336,496,336z"/>
+	</g>
+	<rect x="44" y="333" class="st1" width="39" height="3"/>
+	<rect x="235.5" y="333" class="st1" width="39" height="3"/>
+</g>
+<rect x="428.1" y="333.2" class="st1" width="39" height="3"/>
+</svg>
