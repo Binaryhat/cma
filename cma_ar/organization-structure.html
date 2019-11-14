@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   
-<!-- Mirrored from localhost/cma_ar/organization-structure.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Nov 2019 13:12:54 GMT -->
+<!-- Mirrored from localhost/cma_ar/organization-structure.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2019 10:32:28 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -24,7 +24,7 @@
     <link href="assets/css/Chart.min.css" rel="stylesheet">
     <link href="assets/css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/fontawesome/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link href="assets/css/droidarabickufi.css" rel="stylesheet">
 
     <link href='assets/css/fullcalendar.css' rel='stylesheet' />
 <link href='assets/css/fullcalendar.print.css' rel='stylesheet' media='print' />
@@ -46,12 +46,12 @@
             <div class="top-header container-base"   >
                 <div class="top-header-btns"  >
                    
-                    <button type="button"  title="Languge Change" class="round-btn">AR</button>
-                    <button type="button"  title="Setting" class="round-btn-img m-side-15" data-toggle="modal" data-target="#settingmodal" ><img src="assets/images/icons/gear.svg" alt="logo"   /></button>
-                    <button type="button"  title="Information" class="round-btn-img m-side-15"><img src="assets/images/icons/info.svg" alt="logo"  /></button>
-                    <a href="contactus.html"  title="Contact" class="round-btn-img m-side-15"><img src="assets/images/icons/phone-r.svg" alt="logo"  /></a>
-                    <a href="site-map.html"  title="Structure" class="round-btn-img m-side-15"><img src="assets/images/icons/hierarchy.svg" alt="logo"   /></a>
                     <button type="button"  title="Organisation" class="round-btn-img m-side-15"><img src="assets/images/icons/people.svg" alt="logo"  /></button>
+                    <a href="site-map.html"  title="Structure" class="round-btn-img m-side-15"><img src="assets/images/icons/hierarchy.svg" alt="logo"   /></a>
+                    <a href="contactus.html"  title="Contact" class="round-btn-img m-side-15"><img src="assets/images/icons/phone-r.svg" alt="logo"  /></a>
+                    <button type="button"  title="Information" class="round-btn-img m-side-15"><img src="assets/images/icons/info.svg" alt="logo"  /></button>
+                    <button type="button"  title="Setting" class="round-btn-img m-side-15" data-toggle="modal" data-target="#settingmodal" ><img src="assets/images/icons/gear.svg" alt="logo"   /></button>
+                    <button type="button"  title="Languge Change" class="round-btn">AR</button>
                     <input type="text"  name="search" class="search m-side-15 hidemobile"   />
                 </div>
                 <div class="logo-parent hidemobile"    >
@@ -707,7 +707,14 @@
               </div>
             <div class="modal-body    d-flex flex-column"  >
                <div class="w-100 d-flex flex-row pb-3" style="border-bottom: 0.5px solid #ccc;" >
-               <div class="w-50 text-left" >
+                 
+                    <div class="w-50 text-center " >
+                        <h4 class=" w-100 pb-3">Accessibility Option</h4> 
+                        <button type="button" class="acs-option " id="blindbtnid"   ><i class="fa fa-eye" ></i></button>
+                        <button type="button" class="acs-option " id="_biggify">+A</button>
+                        <button type="button" class="acs-option color-red" id="_smallify">-A</button>
+                    </div>
+                    <div class="w-50 text-center" >
                         <h4 class="w-100 pb-3 ">Choose Color theme</h4>
                             <input class="theme-changer" type="radio" name="color" id="blue" theme-name="blue_theme" value="blue_theme" />
                             <label for="blue"><span class="blue"></span></label>
@@ -715,16 +722,10 @@
                             <label for="green"><span class="green"></span></label>
                             <input class="theme-changer" type="radio" name="color" id="red" theme-name="red_theme" value="red_theme" />
                             <label for="red"><span class="red"></span></label>
-                    </div>  
-                    <div class="w-50 text-center " >
-                        <h4 class=" w-100 pb-3">Accessibility Option</h4> 
-                        <button type="button" class="acs-option " id="blindbtnid"   ><i class="fa fa-eye" ></i></button>
-                        <button type="button" class="acs-option " id="_biggify">A+</button>
-                        <button type="button" class="acs-option color-red" id="_smallify">A-</button>
                     </div>
                </div>
 
-               <div class="w-100 d-flex flex-row p-5 justify-content-between" style="border-bottom: 0.5px solid #ccc;" >
+               <div class="w-100 d-flex flex-row p-5 justify-content-between flex-row-reverse" style="border-bottom: 0.5px solid #ccc;" >
                  
                 <div class="text-center switch" >
                         <h4 class="pb-2">Night Mode</h4>
@@ -750,11 +751,12 @@
                 </div>
 
             <div class="w-100 d-flex flex-row mt-5" >
-                <div class="w-50 d-flex flex-row justify-content-start" >
-                    <button class="modal-print-reset" onclick="window.print();" ><i class="fa fa-print" ></i>  Print This Page</button>
+                
+                <div class="w-50 d-flex flex-row justify-content-start"  >
+                    <button class="modal-print-reset" id="resettheme" >Reset Settings <i class="fa fa-refresh" ></i></button>
                 </div>
-                <div class="w-50 d-flex flex-row justify-content-end"  >
-                    <button class="modal-print-reset" id="resettheme" ><i class="fa fa-refresh" ></i>Reset Settings</button>
+                <div class="w-50 d-flex flex-row justify-content-end" >
+                    <button class="modal-print-reset" onclick="window.print();" >  Print This Page <i class="fa fa-print" ></i></button>
                 </div>
             </div>
             </div>
@@ -805,6 +807,6 @@
 <script src="assets/js/rating-slider-smiley.js"></script>
   </body>
 
-<!-- Mirrored from localhost/cma_ar/organization-structure.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Nov 2019 13:12:54 GMT -->
+<!-- Mirrored from localhost/cma_ar/organization-structure.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Nov 2019 10:32:29 GMT -->
 </html>
 
